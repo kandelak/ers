@@ -68,7 +68,7 @@
 #include "MERCOutputImage.h"
 #include "Image.h"
 #include "ImageIO.h"
-//#include "Tools.h"
+#include "Tools.h"
 #include <opencv2/opencv.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/timer.hpp>
