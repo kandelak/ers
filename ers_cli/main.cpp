@@ -211,6 +211,7 @@ int main(int argc, const char** argv) {
                 labels[i][j] = label[j + i*mat.cols];
             }
         }
+
         
         Integrity::relabel(labels, mat.rows, mat.cols);
         

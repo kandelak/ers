@@ -16,3 +16,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 # Entropy Rate Superpixels
 add_subdirectory(lib_ers)
 add_subdirectory(ers_cli)
+add_subdirectory(ers_python)
