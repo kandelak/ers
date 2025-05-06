@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 4.0)
+# Add the project() command after cmake_minimum_required
+project(ers-python)
 
 set(CMAKE_CXX_FLAGS  "-O4 -fpermissive")
 
@@ -11,8 +13,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 # call 'cmake ../'.
 #
 
-
 # Entropy Rate Superpixels
 add_subdirectory(lib_ers)
 add_subdirectory(ers_cli)
-

@@ -63,6 +63,10 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
+// Supress timer.hpp deprecation erorr
+#define BOOST_TIMER_ENABLE_DEPRECATED
+
 #include "MERCLazyGreedy.h"
 #include "MERCInputImage.h"
 #include "MERCOutputImage.h"

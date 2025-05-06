@@ -7,6 +7,9 @@
 #include "ImageIO.h"
 #include "Tools.h"
 
+// Supress timer.hpp deprecation erorr
+#define BOOST_TIMER_ENABLE_DEPRECATED
+
 #include <opencv2/opencv.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/timer.hpp>

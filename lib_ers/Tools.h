@@ -61,7 +61,10 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include <opencv4/opencv2/opencv.hpp>
+ // Supress timer.hpp deprecation erorr
+#define BOOST_TIMER_ENABLE_DEPRECATED
+
+#include <opencv2/opencv.hpp>
 #include <boost/timer.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
